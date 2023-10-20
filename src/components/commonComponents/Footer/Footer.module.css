@@ -1,0 +1,53 @@
+
+.footer{
+    background: #fff;
+    position: relative;
+    z-index: 1;
+    padding: 50px 0;
+}
+
+.footerTitle {
+    font-weight: 600;
+    font-size: 15px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.footerTitleContents {
+    color: #000;
+    display: block;
+    padding: 5px 0;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.contactUs {
+    padding: 0;
+}
+
+
+.companyproSpan {
+    border-right: 1px solid rgb(239 200 204);
+    margin-right: 15px;
+    padding-right: 15px;
+}
+
+.companyproSvg {
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+
+@media screen and (min-width: 800px){
+
+    .socialIcons {
+        /* display: flex; */
+        display: block;
+        justify-content: space-between;
+    }
+}
